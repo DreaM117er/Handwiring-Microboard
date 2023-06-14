@@ -10,7 +10,7 @@ Handwiring Microboard is a board used Elite-C 12+12+5 pins to expand. It can use
 - 4 M2 screws holes supported.
 - All parts install on the front side.
 
-## Detials for Length and Weight
+## Length and Weight
 
 ![](pic/1-2.png)
 ![](pic/1-3.png)
@@ -18,8 +18,38 @@ Handwiring Microboard is a board used Elite-C 12+12+5 pins to expand. It can use
 ![](pic/1-5.png)
 
 - M2 holes: `ø2.2 mm.`
-- Size of microboard: `l35.56 x 68.199 mm`
+- Size of microboard: `35.56 x 68.199 mm`
 - Distance between M2 holes: `27.94 mm`, `45.847 mm`
 
 ## Microboard Expanded Pin Used
 
+First design used pro micro pins, but the board only supported split keyboard and numpad, so I change idea to Elite-C, it have 5 more pins than pro micro, then final design supported max matrix 15 columns and 6 rows. This size of matrix is same as 80% TKL keyboard.
+
+### Elite-C:
+
+![Elite-C](pic/2-2.png)
+
+This is the pins uesd:
+
+- Rows: 
+`{ F6, F7, B1, B3, B2, B6 }`
+
+- Column0-6:
+`{ D0, D4, C6, D7, E6, B4, B5 }` 
+
+- Column7-14:
+`{ D1, B7, D5, F1, F0, F4, F5 }` 
+
+### Pro Micro:
+
+If you are not using Elite-C install the board, so you only have `Rows` and `Column0-6` pins can used.
+
+![Pro Micro](pic/2-1.png)
+
+- Rows: 
+`{ F6, F7, B1, B3, B2, B6 }`
+
+- Column0-6:
+`{ D0, D4, C6, D7, E6, B4, B5 }` 
+
+## How to Use Handwiring Microboard
