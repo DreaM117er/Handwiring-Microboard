@@ -17,9 +17,9 @@ Handwiring Microboard is a board used Elite-C 12+12+5 pins to expand. It can use
 ![](pic/1-4.png)
 ![](pic/1-5.png)
 
-- M2 holes: ø2.2mm.
-- Board: W x L, 35.56 x 68.199 mm
-- Distance between M2 holes: 27.94mm, 45.847mm
+- M2 holes: `ø2.2 mm.`
+- Size of microboard: `l35.56 x 68.199 mm`
+- Distance between M2 holes: `27.94 mm`, `45.847 mm`
 
 ## Microboard Expanded Pin Used
 
