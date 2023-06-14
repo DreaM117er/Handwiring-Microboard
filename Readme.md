@@ -31,7 +31,7 @@ First design used pro micro pins, but the board only supported split keyboard an
 
 This is the pins uesd:
 
-- Rows: 
+- Row0-5: 
 `{ F6, F7, B1, B3, B2, B6 }`
 
 - Column0-6:
@@ -42,11 +42,11 @@ This is the pins uesd:
 
 ### Pro Micro:
 
-If you are not using Elite-C install the board, so you only have `Rows` and `Column0-6` pins can used.
+If you are not using Elite-C install the board, so you only have `Row0-5` and `Column0-6` pins can used.
 
 ![Pro Micro](pic/2-1.png)
 
-- Rows: 
+- Row0-5: 
 `{ F6, F7, B1, B3, B2, B6 }`
 
 - Column0-6:
