@@ -7,7 +7,7 @@
 
 ## Description
 
-Handwiring Microboard is a board used Elite-C 12+12+5 pins to expand. It can use on opensource kayboard for split, non-split, ANSI layout; Supported Max matrix 15 columns, 6 rows keyboard.
+Handwiring Microboard is a board used Elite-C 12+12+5 pins to expand. It can use on opensource kayboard for split, non-split, ANSI layout; Supported Max matrix 17 columns, 6 rows keyboard.
 
 - TRRS jeck have 2 directions can install.
 - Turn to back side change different install way.
@@ -37,8 +37,8 @@ This is the pins uesd:
 - Row0-5: 
 `{ F6, F7, B1, B3, B2, B6 }`
 
-- Column0-15:
-`{ D0, D4, C6, D7, E6, B4, B5, D3, D1, B7, D5, C7, F1, F0, F4, F5 }` 
+- Column0-17:
+`{ D0, D4, C6, D7, E6, B4, B5, D2, D3, D1, B7, D5, C7, F1, F0, F4, F5 }` 
 
 ### Pro Micro:
 
