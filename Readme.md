@@ -5,51 +5,39 @@
 ![Front side](pic/FS.png)
 ![Back side](pic/BS.png)
 
-## Description
+## 詳細說明
 
-Handwiring Microboard is a board used Elite-C 12+12+5 pins to expand. It can use on opensource kayboard for split, non-split, ANSI layout; Supported Max matrix 17 columns, 6 rows keyboard.
+Pro Micro、Elite-C是大部分開源分離式鍵盤使用的MCU，左右為12+12的針腳數，特別是Elite-C在Pro Micro的腳位上多增加了5個可用的針腳數，增加鍵盤的可能性。礙於開發板本身是不帶螺絲孔位，因此設計了這個將所有Pro Micro可用的針腳及Elite-C多拓展的5個針腳拉出來統合在一起，更方便製作鍵盤。
 
-- TRRS jeck have 2 directions can install.
-- Turn to back side change different install way.
-- 4 M2 screws holes supported.
+- 支援正反面安裝，MCU需對照腳位焊接。
+- 支援2個不同方向的TRRS座安裝。
+- 4個M2螺絲孔位。
 
-## Length and Weight
+## 大小規格
 
 ![](pic/1-2.png)
 ![](pic/1-3.png)
 ![](pic/1-4.png)
 ![](pic/1-5.png)
 
-- M2 holes: `ø2.2 mm.`
-- Size of microboard: `34.020 x 46.992 mm`
-- Distance between M2 holes: `25.697 mm`, `38.945 mm`
+- M2螺絲孔大小: `ø2.2 mm.`
+- 拓展板大小: `34.020 x 46.992 mm`
+- M2螺絲孔間距: `25.697 mm`, `38.945 mm`
 
-## Microboard Expanded Pin Used
+## 板載使用的針腳
 
-First design used pro micro pins, but the board only supported split keyboard and numpad, so I change idea to Elite-C, it have 5 more pins than pro micro, then final design supported max matrix 16 columns and 6 rows. This size of matrix is same as 80% TKL keyboard.
+- 重複設計了大約4次，前2次計算針腳的數量錯誤；
+- 第3次在實際安裝的時候發現會有一些技術上的安裝問題；
+- 最後一次設計將18個可編程的Pro Micro針腳做對稱處理，不用再擔心會有安裝上的技術問題。
 
 ### Elite-C:
 
 ![Elite-C](pic/2-2.png)
 
-This is the pins uesd:
-
-- Row0-5: 
-`{ F6, F7, B1, B3, B2, B6 }`
-
-- Column0-17:
-`{ D0, D4, C6, D7, E6, B4, B5, D2, D3, D1, B7, D5, C7, F1, F0, F4, F5 }` 
+使用Elite-C腳位的MCU，板子上所有的針腳位都可以使用，請依照拓展板上的針腳代號進行編程。
 
 ### Pro Micro:
 
-If you are not using Elite-C install the board, so you only have `Row0-5` and `Column0-6` pins can used.
-
-![Pro Micro](pic/2-1.png)
-
-- Row0-5: 
-`{ F6, F7, B1, B3, B2, B6 }`
-
-- Column0-6:
-`{ D0, D4, C6, D7, E6, B4, B5 }` 
+如果使用Pro Micro進行安裝，拓展板上最下方的5個拓展針腳是無法使用的，請特別留意。
 
 ## How to Use Handwiring Microboard
