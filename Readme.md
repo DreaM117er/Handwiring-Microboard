@@ -1,7 +1,6 @@
 # Handwiring Microboard 手拉線拓展板
 
 ![](pic/1-1.png)
-
 ![Front side](pic/FS.png)
 ![Back side](pic/BS.png)
 
