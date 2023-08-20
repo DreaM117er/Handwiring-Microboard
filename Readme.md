@@ -31,7 +31,7 @@ Pro Micro、Elite-C是大部分開源分離式鍵盤使用的MCU，左右為12+1
 
 ### Elite-C:
 
-![Alt text](Fusion360_oyMEPgjerW.png)
+![](pic/2-2.png)
 
 使用Elite-C腳位的MCU，板子上所有的針腳位都可以使用，請依照拓展板上的針腳代號進行編程。
 
@@ -40,6 +40,35 @@ Pro Micro、Elite-C是大部分開源分離式鍵盤使用的MCU，左右為12+1
 ![Pro Micro](pic/2-1.png)
 
 如果使用Pro Micro進行安裝，拓展板上最下方的5個拓展針腳是無法使用的，請特別留意。
+
+### Micro Pico RP2040:
+
+![Sea Micro](pic/2-3.png)
+
+- 針腳完美對應Elite-C，但仍需轉換IO Pin，這裡為方便大家使用，將Elite-C跟Pico的腳位做一個對照表格：
+
+|Elite-C左側|Pico左側|Elite-C右側|Pico右側|
+|--|--|--|--|
+|-|D+|VBUS|D-|
+|`D3`|`GP0`|`B0`|`RAW`|
+|`D2`|`GP1`|`GND`|`GND`|
+|`GND`|`GND`|`RST`|`RST`|
+|`GND`|`GND`|`VCC`|`3V3`|
+|`D1`|`GP2`|`F4`|`GP29`|
+|`D0`|`GP3`|`F5`|`GP28`|
+|`D4`|`GP4`|`F6`|`GP27`|
+|`C6`|`GP5`|`F7`|`GP26`|
+|`D7`|`GP6`|`B1`|`GP22`|
+|`E6`|`GP7`|`B3`|`GP20`|
+|`B4`|`GP8`|`B2`|`GP23`|
+|`B5`|`GP9`|`B6`|`GP21`|
+|Elite-C下方|Pico下方|--|--|
+|--|--|--|--|
+|`B7`|`GP12`|--|--|
+|`D5`|`GP13`|--|--|
+|`C7`|`GP14`|--|--|
+|`F1`|`GP15`|--|--|
+|`F0`|`GP16`|--|--|
 
 ## 如何安裝
 
