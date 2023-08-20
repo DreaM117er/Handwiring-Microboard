@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "promicro")(type "KiCad")(uri "C:/Users/m1223/OneDrive/文件/MEGA/Kicad/footprint/ProMicroKiCad-master/promicro.pretty")(options "")(descr ""))
+  (lib (name "Keebio-Parts")(type "KiCad")(uri "C:/Users/m1223/OneDrive/文件/MEGA/Kicad/footprint/Keebio-Parts.pretty-master")(options "")(descr ""))
+  (lib (name "Hybrid-Switches")(type "KiCad")(uri "C:/Users/m1223/OneDrive/文件/MEGA/Kicad/footprint/Hybrid-Switches.pretty-master")(options "")(descr ""))
+  (lib (name "DreaM117er-keebLibrary")(type "KiCad")(uri "C:/Users/m1223/OneDrive/文件/MEGA/Kicad/footprint/DreaM117er-keebLibrary.pretty")(options "")(descr ""))
+  (lib (name "Switches")(type "KiCad")(uri "C:/Users/m1223/OneDrive/文件/MEGA/Kicad/footprint/SparkFun-KiCad-Libraries-master/Footprints/Switches.pretty")(options "")(descr ""))
+)
