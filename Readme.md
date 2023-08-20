@@ -33,19 +33,25 @@ Pro Micro、Elite-C是大部分開源分離式鍵盤使用的MCU，左右為12+1
 
 ![](pic/2-2.png)
 
-使用Elite-C腳位的MCU，板子上所有的針腳位都可以使用，請依照拓展板上的針腳代號進行編程。
+> **Note**
+>
+> 使用Elite-C腳位的MCU，板子上所有的針腳位都可以使用，請依照拓展板上的針腳代號進行編程。
 
 ### Pro Micro:
 
 ![Pro Micro](pic/2-1.png)
 
-如果使用Pro Micro進行安裝，拓展板上最下方的5個拓展針腳是無法使用的，請特別留意。
+> **Note**
+>
+> 如果使用Pro Micro進行安裝，拓展板上最下方的5個拓展針腳是無法使用的，請特別留意。
 
 ### Micro Pico RP2040:
 
 ![Sea Micro](pic/2-3.png)
 
-- 針腳完美對應Elite-C，但仍需轉換IO Pin，這裡為方便大家使用，將Elite-C跟Pico的腳位做一個對照表格：
+> **Note**
+>
+> 針腳完美對應Elite-C，但仍需轉換IO Pin，這裡為方便大家使用，將Elite-C跟Pico的腳位做一個對照表格：
 
 |**Elite-C左側**|**Pico左側**|**Elite-C右側**|**Pico右側**|
 |--|--|--|--|
