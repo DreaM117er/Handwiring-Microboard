@@ -1507,7 +1507,7 @@
     (property "Value" "ProMicro" (at 88.9 60.325 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "DreaM117er-keebLibrary:Elite-C" (at 116.205 78.105 90)
+    (property "Footprint" "DreaM117er-keebLibrary:ProMicro" (at 116.205 78.105 90)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 116.205 78.105 90)
