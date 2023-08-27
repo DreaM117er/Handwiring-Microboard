@@ -1,11 +1,11 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,7.0.5*
-G04 #@! TF.CreationDate,2023-08-20T01:56:52+08:00*
+G04 #@! TF.CreationDate,2023-08-28T02:06:04+08:00*
 G04 #@! TF.ProjectId,handwire microboard,68616e64-7769-4726-9520-6d6963726f62,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Profile,NP*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 7.0.5) date 2023-08-20 01:56:52*
+G04 Created by KiCad (PCBNEW 7.0.5) date 2023-08-28 02:06:04*
 %MOMM*%
 %LPD*%
 G01*
@@ -15,6 +15,8 @@ G04 #@! TA.AperFunction,Profile*
 G04 #@! TD*
 G04 APERTURE END LIST*
 D10*
+X18616815Y-65273815D02*
+X51175000Y-65273815D01*
 X18615000Y-17963500D02*
 G75*
 G03*
@@ -41,6 +43,4 @@ G75*
 G03*
 X51175000Y-17963500I-762000J0D01*
 G01*
-X18616815Y-65273815D02*
-X51175000Y-65273815D01*
 M02*

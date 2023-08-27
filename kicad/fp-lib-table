@@ -5,4 +5,5 @@
   (lib (name "Hybrid-Switches")(type "KiCad")(uri "C:/Users/m1223/OneDrive/文件/MEGA/Kicad/footprint/Hybrid-Switches.pretty-master")(options "")(descr ""))
   (lib (name "DreaM117er-keebLibrary")(type "KiCad")(uri "C:/Users/m1223/OneDrive/文件/MEGA/Kicad/footprint/DreaM117er-keebLibrary.pretty")(options "")(descr ""))
   (lib (name "Switches")(type "KiCad")(uri "C:/Users/m1223/OneDrive/文件/MEGA/Kicad/footprint/SparkFun-KiCad-Libraries-master/Footprints/Switches.pretty")(options "")(descr ""))
+  (lib (name "Marby_kbd_footprint-main")(type "KiCad")(uri "C:/Users/m1223/OneDrive/文件/MEGA/Kicad/footprint/Marby_kbd_footprint-main")(options "")(descr ""))
 )
