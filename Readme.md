@@ -127,6 +127,12 @@
 >
 > 如使用`Micro Pico`等`RP2040`等MCU，請依照下表進行`IO pin`的轉換。（以`Sea-Picro`為例）
 
+|Pro Micro|Elite-C|Sea-Picro|
+|--|--|--|
+|![Pro Micro](pic/promicro.png)|![Elite-C](pic/elitec.png)|![Sea-Picro](pic/seapicro.png)|
+
+- IO Pin對照表：
+
 |**Pro Micro、Elite-C左側**|**Pico左側**|**Pro Micro、Elite-C右側**|**Pico右側**|
 |--|--|--|--|
 |-|`D+`|`VBUS`|`D-`|
