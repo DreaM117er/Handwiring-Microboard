@@ -132,7 +132,7 @@
 |Elite-C|![Elite-C](pic/elitec.png)|
 |Sea-Picro|![Sea-Picro](pic/seapicro.png)|
 
-- IO Pin對照表：
+### IO Pin對照表：
 
 |**Pro Micro、Elite-C左側**|**Pico左側**|**Pro Micro、Elite-C右側**|**Pico右側**|
 |--|--|--|--|
