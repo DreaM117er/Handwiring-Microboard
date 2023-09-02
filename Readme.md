@@ -127,9 +127,10 @@
 >
 > 如使用`Micro Pico`等`RP2040`等MCU，請依照下表進行`IO pin`的轉換。（以`Sea-Picro`為例）
 
-|Pro Micro|Elite-C|Sea-Picro|
-|--|--|--|
-|![Pro Micro](pic/promicro.png)|![Elite-C](pic/elitec.png)|![Sea-Picro](pic/seapicro.png)|
+|Pro Micro|![Pro Micro](pic/promicro.png)|
+|--|--|
+|Elite-C|![Elite-C](pic/elitec.png)|
+|Sea-Picro|![Sea-Picro](pic/seapicro.png)|
 
 - IO Pin對照表：
 
